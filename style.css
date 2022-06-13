@@ -41,3 +41,14 @@ aside {
 .footer{
   height: 10vh;
 }
+
+img {
+  border-radius: 250px;
+  width: 200px;
+  height: 200px;
+}
+
+.figure {
+ float: left;
+  
+}
