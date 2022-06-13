@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header,
 main,
 footer {
   border: 2px solid red;
+  background-color: rgb(255, 177, 82);
 }
 body {
   min-height: 100vh;
@@ -10,4 +17,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+ 
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto; 
+  background: url();
+  
+}
+
+.header {
+  height: 30vh;
+}
+
+.main {
+  min-height: calc(100vh - 40vh); 
+}
+aside {
+  float: left;
+  background-color: aqua;
+}
+
+.footer{
+  height: 10vh;
 }
