@@ -69,6 +69,14 @@ img:hover{
 /*Header Finish*/
 /* Main Start*/
 
+li{
+  list-style-type: none;
+}
+
+p{
+  margin: 1% 0 0 0;
+}
+
 .main {
   /*min-height: calc(100vh - 40vh); */
   display: flex;
