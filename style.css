@@ -69,6 +69,7 @@ body {
 
 .main {
   /*min-height: calc(100vh - 40vh); */
+  height: 50vh;
 }
 aside {
   float: left;
@@ -77,5 +78,6 @@ aside {
 
 .footer{
   /*height: 10vh;*/
+  height: 20vh;
 }
 
