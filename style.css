@@ -116,8 +116,20 @@ p{
 
 .footer{
   /*height: 10vh;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   height: 20vh;
+  justify-content: space-evenly;
 }
 
+.rs-logo{
+  background-color: rgb(164, 223, 106);
+  height: 100%;
+}
+
+.gh-si{
+  background-color: cornflowerblue;
+}
 /*Footer Finish */
 
