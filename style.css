@@ -16,6 +16,20 @@ body {
   margin: 0 auto;
 }
 
+img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200%;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 1% 0 0 0;
+}
+
 .container {
   min-height: 100vh;
   margin: 0;
@@ -29,102 +43,102 @@ body {
 /* Header Start */
 
 .header {
-  /*height: 30vh;*/
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  height: 30vh;
+  height: 20vh;
   align-items: center;
+  background-color: cornflowerblue;
 }
 
 .header-logo {
-  /*position: relative;
- top: 10px;
- left: 20px;
- width: 200px;*/
-  flex: 0;
+  display: flex;
+  flex-direction: row;
   margin: 1em;
   background-color: blueviolet;
 }
-.header-text {
-  /*position: absolute;
-  left: 600px;
-  top: 50px;*/
-  flex: 1;
-  background-color: blue;
+
+.logo_pic > img {
+  width: 50px;
+  height: 50px;
 }
 
-img {
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
-}
-
-img:hover {
-  z-index: 10;
-  transform: scale(1.01);
+.header-list {
+  display: flex;
+  flex-direction: row;
 }
 
 /*Header Finish*/
 /* Main Start*/
 
-li {
-  list-style-type: none;
-}
-
-p {
-  margin: 1% 0 0 0;
-}
-
 .main {
-  /*min-height: calc(100vh - 40vh); */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  height: 50vh;
-  margin: 1em;
-}
-.aside {
-  /*flex: 0;*/
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 1em;
-  width: 30vw;
+  height: 70vh;
+  background-color: cornsilk;
 }
 
-/*.aside-section-contacts{
-  background-color: crimson;
-  margin: 1% 0 0 0;
+.section-intro {
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.aside-section-skills{
-  background-color: rgb(147, 58, 219);
-  margin: 1% 0 0 0;
-}*/
+.intro-avatar {
+  width: 200px;
+  height: 200px;
+}
 
-.article {
-  flex: 1;
-  background-color: rgb(163, 224, 196);
-  margin: 1em;
+.intro-avatar_pic {
+  border-radius: 90%;
+  width: 200px;
+  height: 200px;
+}
+
+.intro-avatar:hover {
+  z-index: 10;
+  transform: scale(1.01);
+}
+
+.intro-text, .section-summary{
+  margin: 1%;
+}
+
+.section-general {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.section-general_block {
+  width: 15%;
+  background-color: #ed6464;
+}
+
+.section-general_block:hover {
+  z-index: 10;
+  transform: scale(1.01);
 }
 
 /*Main Finish */
 /*Footer Start */
 
 .footer {
-  /*height: 10vh;*/
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
   justify-content: space-evenly;
+  background-color: darkslategrey;
 }
 
 .rs-logo {
   background-color: rgb(223, 106, 223);
-  height: 100%;
+  height: 50%;
 }
 
 .rs-logo_pic {
