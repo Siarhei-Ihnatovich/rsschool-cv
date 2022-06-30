@@ -95,7 +95,7 @@ p {
 .intro-avatar_pic {
   border-radius: 90%;
   width: 200px;
-  height: 200px;
+  height: 185px;
 }
 
 .intro-avatar:hover {
@@ -103,7 +103,8 @@ p {
   transform: scale(1.01);
 }
 
-.intro-text, .section-summary{
+.intro-text,
+.section-summary {
   margin: 1%;
 }
 
