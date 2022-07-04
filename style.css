@@ -4,9 +4,9 @@
   font-style: normal;
   font-weight: 400;
   src: local(""),
-    url("./fonts/titillium-web-v15-latin-regular.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-v15-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/titillium-web-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("assets/fonts/titillium-web-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* titillium-web-italic - latin */
 @font-face {
@@ -14,9 +14,9 @@
   font-style: italic;
   font-weight: 400;
   src: local(""),
-    url("./fonts/titillium-web-v15-latin-italic.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-v15-latin-italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/titillium-web-v15-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("assets/fonts/titillium-web-v15-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* titillium-web-600italic - latin */
 @font-face {
@@ -24,9 +24,9 @@
   font-style: italic;
   font-weight: 600;
   src: local(""),
-    url("./fonts/titillium-web-v15-latin-600italic.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-v15-latin-600italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/titillium-web-v15-latin-600italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("assets/fonts/titillium-web-v15-latin-600italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* titillium-web-700 - latin */
 @font-face {
@@ -34,9 +34,9 @@
   font-style: normal;
   font-weight: 700;
   src: local(""),
-    url("./fonts/titillium-web-v15-latin-700.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-v15-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/titillium-web-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("assets/fonts/titillium-web-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* zen-dots-regular - latin */
@@ -83,7 +83,7 @@ p {
   margin: 1% 0 0 0;
 }
 
-h2{
+h2 {
   font-family: "Zen Dots";
   font-style: normal;
   font-weight: 400;
@@ -207,6 +207,9 @@ h2{
 }
 
 .section-general_block {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
   width: 15%;
   background-color: #ed6464;
 }
