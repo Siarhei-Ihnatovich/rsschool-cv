@@ -63,9 +63,10 @@ footer {
   background-color: rgb(253, 200, 136);
 }*/
 
-/*html{
-  height: 100vh;
-}*/
+html{
+  scroll-behavior: smooth;
+  /*height: 100vh;*/
+}
 
 body {
   max-width: 1440px;
