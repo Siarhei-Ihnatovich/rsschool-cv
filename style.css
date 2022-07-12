@@ -63,6 +63,10 @@ footer {
   background-color: rgb(253, 200, 136);
 }*/
 
+/*html{
+  height: 100vh;
+}*/
+
 body {
   max-width: 1440px;
   margin: 0 auto;
@@ -90,7 +94,7 @@ h2 {
 }
 
 .container {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   /*width: 70%;*/
   margin: auto;
   padding: 0;
@@ -108,11 +112,12 @@ h2 {
 /* Header Start */
 
 .header {
+  padding: 3% 0 3% 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  /*height: 20%;*/
   background-color: darkgoldenrod;
 }
 
@@ -162,7 +167,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 80vh;
+  /*height: 70%;*/
   background-color: cornsilk;
 }
 
@@ -223,10 +228,11 @@ h2 {
 /*Footer Start */
 
 .footer {
+  padding: 3% 0 3% 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 10vh;
+  /*height: 10%;*/
   justify-content: space-evenly;
   background-color: darkslategrey;
 }
