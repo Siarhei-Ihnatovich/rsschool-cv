@@ -88,6 +88,13 @@ p {
   margin: 1% 0 0 0;
 }
 
+h1{
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
 h2 {
   font-family: "Zen Dots";
   font-style: normal;
@@ -184,7 +191,7 @@ h2 {
 .main {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   /*height: 70%;*/
   background-color: cornsilk;
 }
@@ -213,13 +220,26 @@ h2 {
   transform: scale(1.01);
 }
 
-.intro-text {
+.intro-text{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.intro-text_title{
   flex-grow: 1;
 }
 
 .intro-text,
 .section-summary {
   margin: 1%;
+}
+
+.intro-text_subtitle > p{
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4em;
 }
 
 .section-general {
