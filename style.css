@@ -118,7 +118,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   /*height: 20%;*/
-  background-color: darkgoldenrod;
+  background-color: #2a4852;
 }
 
 .header-logo {
@@ -128,6 +128,10 @@ h2 {
   justify-content: space-between;
   align-items: center;
   /*background-color: blueviolet;*/
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
 }
 
 .logo_pic > img {
@@ -157,8 +161,21 @@ h2 {
 }
 
 .header-link {
+  color:black;
   text-decoration: none;
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
 }
+
+.header-link:hover {
+  color: rgb(188, 188, 224);
+}
+
+/*.header-link:visited {
+  color: rgb(100, 100, 116);
+}*/
 
 /*Header Finish*/
 /* Main Start*/
@@ -234,7 +251,7 @@ h2 {
   align-items: center;
   /*height: 10%;*/
   justify-content: space-evenly;
-  background-color: darkslategrey;
+  background-color: #2a4852;
 }
 
 .rs-logo {
