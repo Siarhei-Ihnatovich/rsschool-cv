@@ -63,7 +63,7 @@ footer {
   background-color: rgb(253, 200, 136);
 }*/
 
-html{
+html {
   scroll-behavior: smooth;
   /*height: 100vh;*/
 }
@@ -88,7 +88,7 @@ p {
   margin: 1% 0 0 0;
 }
 
-h1{
+h1 {
   font-family: "Zen Dots";
   font-style: normal;
   font-weight: 400;
@@ -99,6 +99,7 @@ h2 {
   font-family: "Zen Dots";
   font-style: normal;
   font-weight: 400;
+  font-size: 1em;
 }
 
 .container {
@@ -169,7 +170,7 @@ h2 {
 }
 
 .header-link {
-  color:black;
+  color: black;
   text-decoration: none;
   font-family: "Zen Dots";
   font-style: normal;
@@ -220,13 +221,12 @@ h2 {
   transform: scale(1.01);
 }
 
-.intro-text{
+.intro-text {
   display: flex;
   flex-direction: column;
-  
 }
 
-.intro-text_title{
+.intro-text_title {
   flex-grow: 1;
 }
 
@@ -235,7 +235,7 @@ h2 {
   margin: 1%;
 }
 
-.intro-text_subtitle > p{
+.intro-text_subtitle > p {
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
@@ -250,11 +250,14 @@ h2 {
 }
 
 .section-general_block {
+  margin: 0.5%;
+  padding: 1%;
+  width: 10em;
+  background-color: #ed6464;
+
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 400;
-  width: 15%;
-  background-color: #ed6464;
 }
 
 .section-general_block:hover {
