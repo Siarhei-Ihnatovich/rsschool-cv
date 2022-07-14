@@ -65,6 +65,7 @@ footer {
 
 html {
   scroll-behavior: smooth;
+  color: rgb(2, 2, 34);
   /*height: 100vh;*/
 }
 
@@ -170,7 +171,7 @@ h2 {
 }
 
 .header-link {
-  color: black;
+  color: rgb(2, 2, 34);
   text-decoration: none;
   font-family: "Zen Dots";
   font-style: normal;
